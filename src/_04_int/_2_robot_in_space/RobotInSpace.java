@@ -22,7 +22,7 @@ public class RobotInSpace extends KeyboardAdapter {
 	private boolean turningRight = false;
 
 	/*
-	 * Make the Robot move around the screen when the arrow keys are pressed...
+	 * Make the Robot move around the screen when the arrow keys are pressed
 	 * 
 	 * 1. IMPORTANT: For this recipe, use rob.move(distance) to move your Robot
 	 * and rob.setAngle(angle) to change the direction of your Robot. //Do not add
@@ -32,7 +32,7 @@ public class RobotInSpace extends KeyboardAdapter {
 	private void moveRobot(int keyPressed) {
 		// 2. Print out the keyPressed variable and write down the numbers for
 		// each arrow key
-		
+		System.out.println("keypressed");
 		// 3. If the up arrow is pressed, move the Robot up the screen.
 		
 		// 4. If the down arrow is pressed, move the Robot down.
