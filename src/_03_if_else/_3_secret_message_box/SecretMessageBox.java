@@ -29,7 +29,7 @@ String Message= JOptionPane.showInputDialog("Whats a word");
 String Geuss= JOptionPane.showInputDialog("Guess the passcode");
 	// 4. If their guess matches the password, show them the secret message
 if (Geuss==password) {
-	JOptionPane.showMessageDialog(null, "Message");
+	JOptionPane.showMessageDialog(null, Message);
 	}
 	// 5. If the password does not match, pop-up "INTRUDER!!"
 
